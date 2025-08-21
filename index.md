@@ -1,4 +1,4 @@
-This repository contains the summarized table, and visualisation Dashboard developed and submitted in August 2025 for the End-of-Course Assignment in Analysing Data For Business success course at Republic Polytechnic.
+This [repository](https://github.com/cheeweeng/Data-Transformation-and-Visualization) contains the summarized table, and visualisation Dashboard developed and submitted in August 2025 for the End-of-Course Assignment in Analysing Data For Business Success course at Republic Polytechnic.
 This is the first part of the project which focused on processing, cleaning, transforming the data using Power Query and visualising ecommerce customer data (2020 - 2023) by creating a dashboard using Power BI.  
 
 ## Data Preparation  
@@ -25,10 +25,10 @@ When this is done, a summarized table will be created as above. Notice that the 
 
 In the Add column tab, we will create a custom column named Current_Date with this formula:
 >  DateTime.LocalNow()
-> 
+
 Next, we will create another custom column which will output the number of days since last purchase using this formula:
 > DateTime.LocalNow() - - [Days_Since_Last_Purchase_Date]
-<img width="320" height="450" alt="Image" src="https://github.com/user-attachments/assets/c17c5806-288b-4a96-bb40-1c9c136a8a24" />  
+<p><img width="320" height="450" alt="Image" src="https://github.com/user-attachments/assets/c17c5806-288b-4a96-bb40-1c9c136a8a24" />  </p>
 Click on the new custom column, in the Transform tab, select Duration and then Days, this will transform the data to number of days.
 
 The data preparation is completed, Close and Load the data and saved the workbook.
@@ -46,9 +46,9 @@ This new Customer_Segment column will help us visualise the Churn rate by Custom
 
 <img width="567" height="322" alt="Image" src="https://github.com/user-attachments/assets/10b93fad-bc81-47c6-8563-9a043aff3965" />  
 
-The above simple dashboard shows the total customer counts, the overall churn and visualised the Churn rate in percentage by Customer Segment.  
+The above simple dashboard shows the total customer counts, the overall churn and visualised the Churn rate in percentage by Customer Segment. The chart shows that Churn rate is quite constant across the three segments with the high value total purchases having a slightly higher churn rate.
 
-Go to the second part of the project.
+Next, we will build a churn prediction model in KNIME in the second and last part of the project.
 
 
 
