@@ -17,7 +17,7 @@ Next we will summarized the transaction records by using Groupby customerID.
 In the Transform tab, we will use Groupby and perform the above aggregations.  
 
 <p><img width="900" height="200" alt="Image" src="https://github.com/user-attachments/assets/ca30f3b7-1edc-4af8-8778-7d791977a2a9" />  </p>
-When this is done, a summarized table will be created as above. Notice that the Days_Since_Last_Purchase is in date format, but we want this column to be the number of days, which should be an integer. Perform the following few steps to trasnform the column.
+When this is done, a summarized table will be created as above. Notice that the Days_Since_Last_Purchase is in date format, but we want this column to be the number of days, which should be an integer. Perform the following few steps to transform the column.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3825fc08-6252-4615-8310-c0323ca80586" width="45%" />
   <img src="https://github.com/user-attachments/assets/82a8a5ab-9b46-4de2-ae7d-9cc58560bdad" width="45%" />
@@ -31,7 +31,7 @@ Next, we will create another custom column which will output the number of days 
 <p><img width="320" height="450" alt="Image" src="https://github.com/user-attachments/assets/c17c5806-288b-4a96-bb40-1c9c136a8a24" />  </p>
 Click on the new custom column, in the Transform tab, select Duration and then Days, this will transform the data to number of days.
 
-The data preparation is completed, Close and Load the data and saved the workbook.
+Standardise the decimal places of Avg_Order_Value and Return_Rate column to 2 and the data preparation is completed, Close and Load the data and saved the workbook.
 
 ## Building Dashboard with Power BI 
 Load the summarized table which was created in above steps into Power BI.
