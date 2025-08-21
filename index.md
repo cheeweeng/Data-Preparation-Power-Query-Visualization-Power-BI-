@@ -35,13 +35,21 @@ The data preparation is completed, Close and Load the data and saved the workboo
 
 ## Building Dashboard with Power BI 
 Load the summarized table which was created in above steps into Power BI.
-Before building the dashboard, we will create a new calculated column to categorise customers into "High", "Medium" and "Low" value.
+Before building the dashboard, we will create a new calculated column to categorise customers' total purchases into "High", "Medium" and "Low" value.
 
-7
-In the Table view of Power BI, select New Column and enter this formula:  
+<img width="1300" height="210" alt="Image" src="https://github.com/user-attachments/assets/435958b7-5f2c-431c-8fe1-79051020e5db" />  
+In the Table view of Power BI, select New Column and enter this formula:    
+
 >  Customer_Segment = IF(ecommerce_customer_data_large[Total_Purchases] > 5000, "High Value", IF(ecommerce_customer_data_large[Total_Purchases] > 2000, "Medium Value", "Low Value"))
 
 This new Customer_Segment column will help us visualise the Churn rate by Customer Segment.
+
+<img width="567" height="322" alt="Image" src="https://github.com/user-attachments/assets/10b93fad-bc81-47c6-8563-9a043aff3965" />  
+
+The above simple dashboard shows the total customer counts, the overall churn and visualised the Churn rate in percentage by Customer Segment.  
+
+Go to the second part of the project.
+
 
 
 
