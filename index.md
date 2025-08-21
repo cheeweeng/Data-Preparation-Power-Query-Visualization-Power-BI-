@@ -27,7 +27,7 @@ In the Add column tab, we will create a custom column named Current_Date with th
 >  DateTime.LocalNow()
 
 Next, we will create another custom column which will output the number of days since last purchase using this formula:
-> DateTime.LocalNow() - - [Days_Since_Last_Purchase_Date]
+> DateTime.LocalNow() - [Days_Since_Last_Purchase_Date]
 <p><img width="320" height="450" alt="Image" src="https://github.com/user-attachments/assets/c17c5806-288b-4a96-bb40-1c9c136a8a24" />  </p>
 Click on the new custom column, in the Transform tab, select Duration and then Days, this will transform the data to number of days.
 
