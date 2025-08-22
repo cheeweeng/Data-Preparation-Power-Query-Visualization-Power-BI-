@@ -1,8 +1,8 @@
 This [repository](https://github.com/cheeweeng/Data-Transformation-and-Visualization) contains the summarized table, and visualisation Dashboard developed and submitted in August 2025 for the End-of-Course Assignment in Analysing Data For Business Success course at Republic Polytechnic.
-This is the first part of the project which focused on processing, cleaning, transforming the data using Power Query and visualising ecommerce customer data (2020 - 2023) by creating a dashboard using Power BI.  
+This is the first part of the project which focused on processing, cleaning, transforming the data using Power Query and visualising ecommerce customer data by creating a dashboard using Power BI.  
 
 ## Data Preparation  
-There are duplicated column in "Cusomter_Age" and "Age", so remove one of these column.
+The dataset consist of 250,000 customer transaction records between year 2020 - 2023. The variables include customer demographics, purchase history, product details and churn status. There are duplicated column in "Cusomter_Age" and "Age", so remove one of these column.
 There are also null values in the "Returns" column, so we will replace the null values with "0".
 
 <p><img width="700" height="480" alt="Image" src="https://github.com/user-attachments/assets/b5893c74-da76-4123-bf91-44d9c99fa536" />  </p>
@@ -46,7 +46,7 @@ This new Customer_Segment column will help us visualise the Churn rate by Custom
 
 <img width="567" height="322" alt="Image" src="https://github.com/user-attachments/assets/10b93fad-bc81-47c6-8563-9a043aff3965" />  
 
-The above simple dashboard shows the total customer counts, the overall churn and visualised the Churn rate in percentage by Customer Segment. The chart shows that Churn rate is quite constant across the three segments with the high value total purchases having a slightly higher churn rate.
+The above simple non-interactive dashboard shows the total customer counts, the overall churn and visualised the Churn rate in percentage by Customer Segment. The chart shows that Churn rate is quite constant across the three segments with the high value total purchases having a slightly higher churn rate.
 
 Next, we will build a churn prediction model in KNIME in the second and last part of the project.  
 
