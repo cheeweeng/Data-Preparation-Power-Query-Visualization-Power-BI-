@@ -48,7 +48,7 @@ This new Customer_Segment column will help us visualise the Churn rate by Custom
 
 The above simple non-interactive dashboard shows the total customer counts, the overall churn and visualised the Churn rate in percentage by Customer Segment. The chart shows that Churn rate is quite constant across the three segments with the high value total purchases having a slightly higher churn rate.
 
-Next, we will build a churn prediction model in KNIME in the second and last part of the project.  
+Next, we will build a [churn prediction model in KNIME](https://cheeweeng.github.io/Churn-Prediction-Model-in-KNIME/) in the second and last part of the project.  
 
 Back to [Projects portfolio](https://cheeweeng.github.io)
 
